@@ -8,7 +8,7 @@ A key, for example, might be the string NQXPOMAFTRHLZGECYJIUWSKDVB. This 26-char
 
 A message like HELLO, then, would be encrypted as FOLLE, replacing each of the letters according to the mapping determined by the key.
 
-For example, if the user inputs a key of VCHPRZGJNTLSKFBDQWAXEUYMOI and a plaintext of HELLO:
+For example, if the user inputs a key of VCHPRZGJNTLSKFBDQWAXEUYMOI and a plaintext of hello, world:
 
 ```
 $ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI
